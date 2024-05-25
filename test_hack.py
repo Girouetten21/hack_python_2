@@ -39,7 +39,7 @@ def test_hack_4():
     assert fn_hack_4("qux") == "qux"
 
 
-def test_hack_5():
+def test_hack_5(): #No logre completarlo.
     assert fn_hack_5("fooziman") == "fo-zi-ma-"
     assert fn_hack_5("barziman") == "ba-zi-an"
     assert fn_hack_5("qu-") == "qu-"
@@ -69,5 +69,3 @@ def test_hack_9():
 
 def test_hack_10():
     assert fn_hack_10([{"a":"b"},{"c":"d"},{"e":"f"}]) == [{"1":"2"},{"3":"4"},{"5":"6"}]
-
-
